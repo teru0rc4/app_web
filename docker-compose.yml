@@ -16,7 +16,7 @@ services:
     volumes:
       - ./:/usr/src/app
     working_dir: /usr/src/app
-    command: sh -c "cd app_web && yarn start"
+    command: sh -c "yarn start"
 
     # ポート設定、:前がホスト側のポート、:あとがコンテナ側のポート
     ports:
