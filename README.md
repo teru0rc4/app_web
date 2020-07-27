@@ -12,3 +12,9 @@ docker-compose up -d
 ```
 
 `http://localhost:3000/` 
+
+
+## ライブラリの更新時
+```
+docker-compose run --rm app_web sh -c "yarn install"
+```

@@ -22,6 +22,7 @@ module.exports = {
     },
     "plugins": [
         "react",
+        'react-app',
         "@typescript-eslint"
     ],
     "rules": {
